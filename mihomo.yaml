@@ -179,6 +179,8 @@ proxies:
   - {name: "سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]", server: 104.19.52.116, port: 443, type: trojan, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, sni: breezy-poppy-6b0c.alireza13854103.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: breezy-poppy-6b0c.alireza13854103.workers.dev}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]", server: 104.17.149.162, port: 443, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: breezy-poppy-6b0c.alireza13854103.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]", server: 104.17.121.8, port: 443, type: vless, uuid: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, tls: true, skip-cert-verify: false, servername: breezy-poppy-6b0c.alireza13854103.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: breezy-poppy-6b0c.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]", server: 104.18.0.0, port: 443, type: trojan, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, sni: breezy-poppy-6b0c.alireza13854103.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: breezy-poppy-6b0c.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]", server: 104.18.1.1, port: 2053, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: breezy-poppy-6b0c.alireza13854103.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -337,6 +339,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -491,6 +495,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -644,6 +650,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -798,6 +806,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -971,6 +981,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -1130,6 +1142,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.19.52.116:443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
