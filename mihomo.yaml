@@ -180,6 +180,13 @@ proxies:
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]", server: 104.17.149.162, port: 443, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: olive-birch-6cb6.alireza13854103.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]", server: 104.17.121.8, port: 443, type: vless, uuid: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, tls: true, skip-cert-verify: false, servername: olive-birch-6cb6.alireza13854103.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]", server: 104.17.218.220, port: 8443, type: trojan, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, sni: olive-birch-6cb6.alireza13854103.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]", server: 172.66.0.60, port: 2096, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: olive-birch-6cb6.alireza13854103.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]", server: 172.66.0.60, port: 2087, type: vless, uuid: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, tls: true, skip-cert-verify: false, servername: olive-birch-6cb6.alireza13854103.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]", server: 172.66.0.60, port: 2083, type: trojan, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, sni: olive-birch-6cb6.alireza13854103.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]", server: 172.66.0.60, port: 8443, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: olive-birch-6cb6.alireza13854103.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]", server: 172.66.0.60, port: 2053, type: vless, uuid: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, tls: true, skip-cert-verify: false, servername: olive-birch-6cb6.alireza13854103.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]", server: 104.17.182.115, port: 2096, type: trojan, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, sni: olive-birch-6cb6.alireza13854103.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: olive-birch-6cb6.alireza13854103.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]", server: 104.17.182.115, port: 2083, type: ss, cipher: aes-128-gcm, password: dc0385c3-a5e7-4c3c-8a27-dd869afd8f8e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: olive-birch-6cb6.alireza13854103.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -339,6 +346,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -494,6 +508,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -648,6 +669,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -803,6 +831,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -977,6 +1012,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -1137,6 +1179,13 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.17.149.162:443 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.17.121.8:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.218.220:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.60:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.182.115:2083 [SS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
